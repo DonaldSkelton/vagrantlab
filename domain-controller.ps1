@@ -2,7 +2,7 @@ param(
     $domain = 'ParentDomain.local'
 )
 
-$netbiosDomain = 'parent'
+$netbiosDomain = 'parentdomain'
 
 $safeModeAdminstratorPassword = ConvertTo-SecureString 'This1sN0tBl@sphemyThis1sN0tM@dness!' -AsPlainText -Force
 
